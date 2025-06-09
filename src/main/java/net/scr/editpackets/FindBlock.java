@@ -32,7 +32,7 @@ public class FindBlock implements Listener {
     @EventHandler
     public void onFindBlock(PlayerMoveEvent e) {
 
-        if (System.currentTimeMillis() - lastCheckTime < 100) {
+        if (System.currentTimeMillis() - lastCheckTime < 1000) {
             return;
         }
         lastCheckTime = System.currentTimeMillis();

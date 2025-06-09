@@ -13,10 +13,6 @@ public final class EditPackets extends JavaPlugin {
     @Override
     public void onEnable() {
         getServer().getPluginManager().registerEvents(new FindBlock(this), this);
-        getServer().getPluginManager().registerEvents(new SetBlock(), this);
-
-
-
     }
 
     @Override
