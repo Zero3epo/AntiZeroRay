@@ -1,0 +1,5 @@
+name: EditPackets
+version: '${project.version}'
+main: net.scr.editpackets.EditPackets
+api-version: '1.16'
+depend: [ProtocolLib]
